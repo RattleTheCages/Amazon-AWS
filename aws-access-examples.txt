@@ -1,0 +1,11 @@
+Down and dirty access examples:
+
+telnet to:
+ssh -i rattle.pem ec2-user@18.220.233.130
+
+copy to:
+scp -i rattle.pem ./*.py ec2-user@18.220.233.130:.
+
+
+
+
