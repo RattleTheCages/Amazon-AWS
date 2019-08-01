@@ -8,6 +8,10 @@ scp -i rattle.pem ./*.py ec2-user@18.220.233.130:.
 
 git command to clone repository:
 git clone https://github.com/RattleTheCages/ngrams.git
+git add -A
+git status
+git commit --author rattle -m "Update to compile on the modern GNU g++ compiler"
+git push
 
 
 
