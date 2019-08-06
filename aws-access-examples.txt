@@ -12,7 +12,9 @@ git add -A
 git status
 git commit --author rattle -m "Update to compile on the modern GNU g++ compiler"
 git push
+history | grep git
 
+find . -iname "*_o.*" | xargs grep "string_o"
 
 
 
